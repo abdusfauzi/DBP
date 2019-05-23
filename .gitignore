@@ -24,7 +24,7 @@ vendor/*
 bower_components
 
 # Plugins
-#!web/app/plugins/wck-custom-fields-and-custom-post-types-creator
+!web/app/plugins/wck-custom-fields-and-custom-post-types-creator
 
 
 # WP Theme
