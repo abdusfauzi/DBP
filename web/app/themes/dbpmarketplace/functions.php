@@ -1,8 +1,5 @@
 <?php
 
-if( file_exists(__DIR__ . '/inc/cmb2/init.php') ){
-require_once __DIR__ . '/inc/cmb2/init.php';
-}
 
 add_action( 'cmb2_init', 'cmb2_sample_metaboxes' );
 
