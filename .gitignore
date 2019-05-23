@@ -28,6 +28,7 @@ bower_components
 
 
 # WP Theme
+!web/app/themes/dbpmarketplace
 !web/app/themes/twentyeleven
 web/app/themes/twentynineteen
 web/app/themes/twentyfifteen
