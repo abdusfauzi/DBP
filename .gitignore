@@ -1,0 +1,42 @@
+# Application
+web/app/plugins/*
+web/app/plugins/*/
+!web/app/plugins/.gitkeep
+web/app/mu-plugins/*/
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+
+# WordPress
+web/wp
+web/.htaccess
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Composer
+vendor/*
+!vendor/.gitkeep
+
+# Bower
+bower_components
+
+# Plugins
+#!web/app/plugins/wck-custom-fields-and-custom-post-types-creator
+
+
+# WP Theme
+!web/app/themes/twentyeleven
+web/app/themes/twentynineteen
+web/app/themes/twentyfifteen
+web/app/themes/twentyfourteen
+web/app/themes/twentyseventeen
+web/app/themes/twentysixteen
+web/app/themes/twentyten
+web/app/themes/twentythirteen
+web/app/themes/twentytwelve
+!web/app/themes/index.php
+#!web/app/themes/mtik-my
+
