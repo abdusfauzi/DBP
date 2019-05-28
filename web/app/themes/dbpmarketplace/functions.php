@@ -81,10 +81,25 @@ function cmb2_sample_metaboxes() {
 
 	// URL text field
 	$cmb_demo->add_field( array(
-		'name' => __( 'Website URL', 'cmb2' ),
+		'name' => __( 'Application URL', 'cmb2' ),
 		'desc' => __( 'field description (optional)', 'cmb2' ),
 		'id'   => 'url',
 		'type' => 'text_url',
+		'show_in_rest' => true,
+		// 'protocols' => array('http', 'https', 'ftp', 'ftps', 'mailto', 'news', 'irc', 'gopher', 'nntp', 'feed', 'telnet'), // Array of allowed protocols
+		// 'repeatable' => true,
+	) );
+
+	$cmb_demo->add_field( array(
+		'name' => __( 'Type', 'cmb2' ),
+		'desc' => __( 'field description (optional)', 'cmb2' ),
+		'id'   => 'type',
+		'type' => 'radio_inline',
+		'options' => array(
+				'single' => __( 'Single', 'cmb2' ),
+				'series'   => __( 'Series', 'cmb2' ),
+			),
+			'default' => 'standard',
 		'show_in_rest' => true,
 		// 'protocols' => array('http', 'https', 'ftp', 'ftps', 'mailto', 'news', 'irc', 'gopher', 'nntp', 'feed', 'telnet'), // Array of allowed protocols
 		// 'repeatable' => true,
