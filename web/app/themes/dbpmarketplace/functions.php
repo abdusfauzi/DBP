@@ -67,7 +67,7 @@ function cmb2_sample_metaboxes() {
 
 	$cmb_demo = new_cmb2_box( array(
 		'id'            => 'application',
-		'title'         => __( 'appplication Arguments', 'cmb2' ),
+		'title'         => __( 'Aplikasi', 'cmb2' ),
 		'object_types'  => array( 'applications', ), // Post type
 		'context'       => 'normal',
 		'priority'      => 'high',
@@ -81,8 +81,8 @@ function cmb2_sample_metaboxes() {
 
 	// URL text field
 	$cmb_demo->add_field( array(
-		'name' => __( 'Application URL', 'cmb2' ),
-		'desc' => __( 'field description (optional)', 'cmb2' ),
+		'name' => __( 'Aplikasi URL :', 'cmb2' ),
+		'desc' => __( 'cth: https://play.google.com/store/apps/details?id=com.offlinedictionary.kamusdewan', 'cmb2' ),
 		'id'   => 'url',
 		'type' => 'text_url',
 		'show_in_rest' => true,
@@ -91,13 +91,13 @@ function cmb2_sample_metaboxes() {
 	) );
 
 	$cmb_demo->add_field( array(
-		'name' => __( 'Type', 'cmb2' ),
-		'desc' => __( 'field description (optional)', 'cmb2' ),
+		'name' => __( 'Jenis :', 'cmb2' ),
+		'desc' => __( '', 'cmb2' ),
 		'id'   => 'type',
 		'type' => 'radio_inline',
 		'options' => array(
 				'single' => __( 'Single', 'cmb2' ),
-				'series'   => __( 'Series', 'cmb2' ),
+				'series'   => __( 'Siri', 'cmb2' ),
 			),
 			'default' => 'standard',
 		'show_in_rest' => true,
@@ -106,8 +106,8 @@ function cmb2_sample_metaboxes() {
 	) );
 
 	$cmb_demo->add_field( array(
-		'name'    => __('Images', 'cmb2'),
-		'desc'    => 'Upload an image or enter an URL.',
+		'name'    => __('Gambar :', 'cmb2'),
+		'desc'    => '',
 		'id'      => 'images',
 		'type'    => 'file',
 		'show_in_rest' => true,
