@@ -29,16 +29,28 @@
     <!-- Header Area wrapper Starts -->
     <header id="header-wrap">
 
+      <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <a href="index.html"><img src="http://localhost:8082/wordpress/DBP/web/app/themes/dbpmarketplace/assets/img/dbpLogo.gif" height="40px" width="40px" alt=""></a>       
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+      
+           
+          </div>
+        </div>
+      </nav>
+
       <!-- Hero Area Start -->
       <div id="hero-area" class="hero-area-bg">
         <div class="container">      
           <div class="row">
             <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
               <div class="contents">
-                <h2 class="head-title">Aplikasi Marketplace</h2>
+                <h2 class="head-title">E-DBP</h2>
                 <h4>Dewan Bahasa Dan Pustaka</h4>
                 <div class="header-button">
-                  <a href="#" ><img src="http://localhost:8082/wordpress/DBP/web/app/themes/dbpmarketplace/assets/img/playstore.png" height="70" width="200"></i></a>
+                  <a href="https://play.google.com/store/apps/details?id=com.dbp.marketplace" ><img src="http://localhost:8082/wordpress/DBP/web/app/themes/dbpmarketplace/assets/img/playstore.png" height="70" width="200"></i></a>
+                  <a href="#"><img src="http://localhost:8082/wordpress/DBP/web/app/themes/dbpmarketplace/assets/img/appstore.jpg" height="70" width="200"></i></a>
                 </div>
               </div>
             </div>
