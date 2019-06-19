@@ -49,8 +49,8 @@
                 <h2 class="head-title">E-DBP</h2>
                 <h4>Dewan Bahasa Dan Pustaka</h4>
                 <div class="header-button">
-                  <a href="https://play.google.com/store/apps/details?id=com.dbp.marketplace" ><img src="<?php echo home_url(); ?>/app/themes/dbpmarketplace/assets/img/playstore.png" height="70" width="200"></i></a>
-                  <a href="#"><img src="<?php echo home_url(); ?>/app/themes/dbpmarketplace/assets/img/appstore.jpg" height="70" width="200"></i></a>
+                  <a href="https://play.google.com/store/apps/details?id=com.dbp.marketplace" ><img src="<?php echo home_url(); ?>/app/themes/dbpmarketplace/assets/img/playstore.png" height="70"></i></a>
+                  <a href="#"><img src="<?php echo home_url(); ?>/app/themes/dbpmarketplace/assets/img/appstore.jpg" height="70"></i></a>
                 </div>
               </div>
             </div>
